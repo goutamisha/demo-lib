@@ -1,10 +1,10 @@
 {
-  "name": "my-react-component",
+  "name": "isha-demo-js-lib",
   "version": "1.0.0",
   "description": "A cool React component",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/my-react-component.git"
+    "url": "https://github.com/goutamisha/demo-lib"
   },
   "author": "Goutam",
   "license": "MIT",
