@@ -1,0 +1,43 @@
+{
+  "name": "my-react-component",
+  "version": "1.0.0",
+  "description": "A cool React component",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/my-react-component.git"
+  },
+  "author": "Goutam",
+  "license": "MIT",
+  "files": [
+    "dist/my-react-component.bundle.js"
+  ],
+  "npmName": "my-react-component",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "*.bundle.js"
+      ]
+    }
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "isha demo lib"
+  ],
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-react": "^7.24.1",
+    "babel": "^6.23.0",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
